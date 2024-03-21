@@ -105,7 +105,6 @@ h6 {
    position: relative;
 }
 
-
 .company-profile__container {
    width: 100%;
    margin: 0 auto;
@@ -154,6 +153,11 @@ h6 {
    font-size: 16px;
    font-weight: 700;
    line-height: 25.6px;
+}
+
+.menu__link {
+   text-decoration: none;
+   color: black;
 }
 
 .header__language-selector {
@@ -348,7 +352,7 @@ h6 {
 .company-profile__facts {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: flex-start;
    align-items: center;
    gap: 100px;
    position: absolute;
@@ -1121,7 +1125,6 @@ h6 {
 
 .form-box__conditions {
    color: white;
-
 }
 
 input {
@@ -1133,18 +1136,20 @@ input {
    border-radius: 5px;
 }
 
-
-
 .social-links__btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
    width: 280px;
    height: 42px;
-   padding: 10px 40px 10px 92px;
+   /* padding: 10px 40px 10px 92px; */
    gap: 8px;
    border-radius: 50px;
    border: 1px solid white;
    background-color: white;
    color: #000000;
-}
+  }
 
 .form-box__btn {
    border-radius: 50px;
@@ -1154,5 +1159,7 @@ input {
    width: 404px;
    height: 42px;
    gap: 16px;
-
 }
+
+
+

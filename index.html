@@ -9,12 +9,12 @@
 </head>
 <body>
   <div class="wrapper">
-    <section class="company-profile">
+    <section class="company-profile" id="about">
         <div class="company-profile__container">
             <!--HEADER START-->
             <header class="header">
                 <div class="header__container">
-                    <img src="/assets/icons/Vector 7.png" class="header__vector" alt="vector7"/>
+                    <img src="./assets/icons/Vector 7.png" class="header__vector" alt="vector7"/>
                     <!-- <img src="./assets/icons/Vector 9.png" class="vector-nine" alt="vector9"> -->
                     <!-- <img src="./assets/icons/Vector 10.png"  class="vector-ten" alt="vector10"> -->
                     <!-- <img src="./assets/icons/Vector 11.png"  class="vector-eleven" alt="vector11"> -->
@@ -22,9 +22,9 @@
                     <nav class="header__menu header__menu--primary">
                         <ul class="menu__list">
                             <li class="menu__item"><img src="./assets/icons/Logo_header.png"/></li>
-                            <li class="menu__item">Холдинг</li>
-                            <li class="menu__item">Nordcore</li>
-                            <li class="menu__item">Swift Technical</li>
+                            <li class="menu__item"><a href="#about" class="menu__link">Холдинг</a></li>
+                            <li class="menu__item"><a href="#nordcore" class="menu__link">Nordcore</a></li>
+                            <li class="menu__item"><a href="#swift-tech" class="menu__link">Swift Technical</a></li>
                             <li class="menu__item"></li>
                         </ul>
                     <div class="header__language-selector">
@@ -46,12 +46,12 @@
 
                     <nav class="header__menu header__menu--secondary">
                         <ul class="menu__list">
-                            <li class="menu__item">О холдинге</li>
-                            <li class="menu__item">Услуги</li>
-                            <li class="menu__item">Кейсы</li>
-                            <li class="menu__item">Медиа</li>
-                            <li class="menu__item">Вакансии</li>
-                            <li class="menu__item">Контакты</li>
+                            <li class="menu__item"><a href="#about" class="menu__link">О холдинге</a></li>
+                            <li class="menu__item"><a href="#service" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="#cases" class="menu__link">Кейсы</a></li>
+                            <li class="menu__item"><a href="#media" class="menu__link">Медиа</a></li>
+                            <li class="menu__item"><a href="#jobs" class="menu__link">Вакансии</a></li>
+                            <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
                         </ul>
                         <div class="header__buttons">
                             <button class="header__button header__button--resume">Отправить резюме</button>
@@ -97,7 +97,7 @@
               </div>
            </div>
             <img class="company-profile__image" src="./assets/img/womanworker.png" alt="female worker"/>
-            <img class="vector-eight" src="/assets/icons/Vector 8.png" alt="vector8"/>
+            <img class="vector-eight" src="./assets/icons/Vector 8.png" alt="vector8"/>
            </div>
         <!--COMPANY-PROFILE__FACTS END-->
 
@@ -331,12 +331,24 @@
 
             <div class="contacts__social-links">  
                 <div class="social-links__upper">
-                    <button class="social-links__btn"></button>
-                    <button class="social-links__btn"></button>
+                    <button class="social-links__btn">
+                        <img src="./assets/icons/Vector.png" alt="Telegram Icon" class="btn__icon">
+                        <span class="btn__text">Telegram</span>
+                    </button>
+                    <button class="social-links__btn">
+                        <img src="./assets/icons/Vector (1).png" alt="Telegram Icon" class="btn__icon">
+                        <span class="btn__text">WhatsApp</span>
+                    </button>
                 </div>
                 <div class="social-links__lower">
-                    <button class="social-links__btn"></button>
-                    <button class="social-links__btn"></button>
+                    <button class="social-links__btn">
+                        <img src="./assets/icons/Vector (2).png" alt="Telegram Icon" class="btn__icon">
+                        <span class="btn__text">Вконтакте</span>
+                    </button>
+                    <button class="social-links__btn">
+                        <img src="./assets/icons/Vector (3).png" alt="Telegram Icon" class="btn__icon">
+                        <span class="btn__text">Почта</span>
+                    </button>
                 </div>
             </div>
 
