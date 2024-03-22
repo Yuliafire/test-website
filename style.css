@@ -1163,3 +1163,207 @@ input {
 
 
 
+.footer {
+background: linear-gradient(152.78deg, #1C274A 0%, #040711 100%);
+width: 100%;
+max-width: 1440px;
+height: 800px;
+margin: 0 auto;
+padding: 120px 120px;
+
+}
+
+
+.footer__container {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+  
+   gap: 70px;
+}
+
+.footer__upper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: white;
+   align-items: center;
+
+}
+
+.footer__upper-left,
+.footer__upper-right {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 50px;
+}
+
+
+.upper__logo-one,
+.upper__logo-two  {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+
+.logo-one__image {
+
+}
+
+.upper__logo-two {
+
+}
+
+.logo-two__image {
+
+}
+
+.logo-two__text,
+.logo-one__text {
+   align-self: last baseline;
+
+   /* text */
+
+width: 115.56px;
+height: 19.05px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+
+.upper__address {
+
+}
+
+.upper__contacts {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.contacts__number {
+   margin-top: -25px;
+font-family: Manrope;
+font-size: 22px;
+font-weight: 700;
+line-height: 25.52px;
+}
+
+.address__city {
+font-family: Manrope;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+}
+
+.contacts__mailresume {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   color: #FCFCFC;
+
+}
+
+.mailresume__text {
+ 
+   font-family: Nunito Sans;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.6px;
+   text-align: right;
+   
+}
+
+.mailresume__mail {
+  
+font-family: Manrope;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: right;
+
+}
+
+
+
+.footer__middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middle__column {
+   color: white;
+
+}
+
+.column__title {
+
+}
+
+.column__list,
+.about__list {
+   list-style-type: none;
+
+}
+
+.list__item {
+
+}
+
+.middle__about {
+   display: flex;
+   flex-direction: column;
+   color: white;
+}
+
+.footer__copyright {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 50px;
+}
+
+.copyright__left,
+.copyright__right {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 50px;
+   color: white;    
+
+}
+
+.address__street,
+.contacts__email {
+width: 210px;
+height: 40px;
+gap: 0px;
+opacity: 0.7px;
+font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+text-align: left;
+color: #FCFCFC;
+
+
+}
+
+
+
+
+
+
+
+
