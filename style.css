@@ -160,6 +160,21 @@ h6 {
    color: black;
 }
 
+.menu__link:hover {
+   color: blue;
+   cursor: pointer;
+}
+
+.menu__link:active {
+   color: blue;
+}
+
+.menu__link--holding:hover,
+.menu__link--holding:active {
+    color: blue;
+}
+
+
 .header__language-selector {
    display: flex;
    /* flex-direction: row; */
@@ -260,6 +275,10 @@ h6 {
    font-weight: 700;
    line-height: 22px;
    letter-spacing: 0em;
+}
+
+.header__button:hover {
+   cursor: pointer;
 }
 
 .header__button--resume {
@@ -661,6 +680,10 @@ h6 {
    letter-spacing: 0em;
 }
 
+.company-staff__btn:hover {
+   cursor: pointer;
+}
+
 
 .company-staff .company-profile__facts {
    position: absolute;
@@ -741,6 +764,10 @@ h6 {
    margin-top: 200px;
 }
 
+.nordcore__btn {
+   cursor: pointer;
+}
+
 
 .card__content {
    display: flex;
@@ -781,7 +808,6 @@ h6 {
    line-height: 20px;
    letter-spacing: 0em;
    text-align: left;
-
 }
 
 
@@ -854,6 +880,11 @@ h6 {
    background-color: #FCFCFC33;
    border: 1px solid #FCFCFC33;
    color: #FCFCFC;
+}
+
+.cases__btn:hover,
+.media__btn:hover {
+   cursor: pointer;
 }
 
 .case__image {
@@ -1009,6 +1040,10 @@ h6 {
    color: #FCFCFC;
 }
 
+.btns__button:hover {
+   cursor: pointer;
+}
+
 .btns__button--project {
    background-color: #145CEF;
    border: 1px solid #145CEF;
@@ -1151,6 +1186,10 @@ input {
    color: #000000;
   }
 
+  .social-links__btn:hover {
+   cursor: pointer;
+  }
+
 .form-box__btn {
    border-radius: 50px;
    border: 1px solid white;
@@ -1170,7 +1209,10 @@ max-width: 1440px;
 height: 800px;
 margin: 0 auto;
 padding: 120px 120px;
+}
 
+.form-box__btn {
+   cursor: pointer;
 }
 
 
@@ -1178,7 +1220,6 @@ padding: 120px 120px;
    display: flex;
    flex-direction: column;
    width: 100%;
-  
    gap: 70px;
 }
 
@@ -1221,22 +1262,18 @@ padding: 120px 120px;
 
 }
 
-.logo-two__text,
-.logo-one__text {
-   align-self: last baseline;
-
+.logo__text,
+.logo__text {
+align-self: last baseline;
    /* text */
-
-width: 115.56px;
-height: 19.05px;
-
-
+/* width: 115.56px;
+height: 19.05px; */
 /* Inside auto layout */
 flex: none;
 order: 1;
-flex-grow: 0;
-
-
+/* flex-grow: 0; */
+font-size: 24px;
+font-weight: 700;
 }
 
 
@@ -1248,9 +1285,17 @@ flex-grow: 0;
    display: flex;
    flex-direction: column;
    gap: 10px;
+   
+}
+
+.contacts__email {
+  
+   padding-left: 40px;
+
 }
 
 .contacts__number {
+   text-align: right;
    margin-top: -25px;
 font-family: Manrope;
 font-size: 22px;
@@ -1285,16 +1330,13 @@ text-align: left;
 }
 
 .mailresume__mail {
-  
 font-family: Manrope;
 font-size: 18px;
 font-weight: 700;
 line-height: 21.6px;
 text-align: right;
-
+margin-bottom: 15px;
 }
-
-
 
 .footer__middle {
   display: flex;
@@ -1314,18 +1356,70 @@ text-align: right;
 .column__list,
 .about__list {
    list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 15px;
+}
 
+.column__title {
+   padding-bottom: 15px;
+ 
 }
 
 .list__item {
+   font-family: Nunito Sans;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.6px;
+   text-align: left;
+   color: #FCFCFC;
+   }
 
-}
+
+   .list__link {
+   text-decoration: none;
+   color: #FCFCFC;
+   }
 
 .middle__about {
    display: flex;
    flex-direction: column;
    color: white;
 }
+
+.list__aboutitem {
+font-family: Manrope;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+}
+
+hr 
+{
+   border: 1px solid #FFFFFF26;
+}
+
+
+/* .contacts__socials {
+   display: flex;
+
+   gap: 10px;
+
+} */
+
+
+.socials__first,
+.socials__second {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.socials__icon:hover {
+   cursor: pointer;
+}
+
 
 .footer__copyright {
    display: flex;
@@ -1356,9 +1450,12 @@ font-weight: 400;
 line-height: 19.6px;
 text-align: left;
 color: #FCFCFC;
-
-
 }
+
+
+
+
+
 
 
 

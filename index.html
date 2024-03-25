@@ -25,7 +25,6 @@
                             <li class="menu__item"><a href="#about" class="menu__link">Холдинг</a></li>
                             <li class="menu__item"><a href="#nordcore" class="menu__link">Nordcore</a></li>
                             <li class="menu__item"><a href="#swift-tech" class="menu__link">Swift Technical</a></li>
-                            <li class="menu__item"></li>
                         </ul>
                     <div class="header__language-selector">
                       <div class="language-selector__wrapper">
@@ -46,7 +45,7 @@
 
                     <nav class="header__menu header__menu--secondary">
                         <ul class="menu__list">
-                            <li class="menu__item"><a href="#about" class="menu__link">О холдинге</a></li>
+                            <li class="menu__item"><a href="#about" class="menu__link menu__link--holding">О холдинге</a></li>
                             <li class="menu__item"><a href="#service" class="menu__link">Услуги</a></li>
                             <li class="menu__item"><a href="#cases" class="menu__link">Кейсы</a></li>
                             <li class="menu__item"><a href="#media" class="menu__link">Медиа</a></li>
@@ -55,7 +54,10 @@
                         </ul>
                         <div class="header__buttons">
                             <button class="header__button header__button--resume">Отправить резюме</button>
-                            <button class="header__button header__button--discuss">Обсудить проект</button>
+                            <button class="header__button header__button--discuss">
+                                <span class="button__discuss-text">Обсудить проект</span>
+                                <img  class="button__discuss-img" src="./assets/icons/Btn_icon.png" alt=""/>
+                            </button>
                         </div>
                     </nav>
                 </div>
@@ -228,34 +230,7 @@
         </div>
     </section>
 
-    <!--<div class="company-cards__item">
-            <div class="company-cards__item-green"></div>
-            <div class="company-card company-card--nordcore">
-                <div class="company-card__content">
-                    <h3 class="company-card__title">Nordcore</h3>
-                     <p class="company-card__description">Карьерное консультирование B2C и корпоративное обучение B2B</p>
-                        <div class="company-card__tags">
-                            <ul class="tags__list">
-                                <li class="list__item list__item--green">Обучение и оценка</li>
-                                <li class="list__item list__item--green">//</li>
-                            </ul>
-                            <ul class="tags__list">
-                                <li class="list__item list__item--green">//</li>
-                                <li class="list__item list__item--green">Консультационные услуги</li>
-                            </ul>
-                         </div>
-                </div>
-                 <img class="company-card__arrow-icon"  src="./assets/icons/arrowicon.png"/>
-             </div>
-        </div>-->
-
-
-
-
-
-
-
-
+ 
     <section class="cases">
         <div class="cases__container">
             <div class="cases__line"></div>
@@ -384,13 +359,13 @@
              <div class="footer__upper-left">
                 <div class="upper__logo-one">
                     <img src="./assets/icons/icon1.png" class="logo__image" />
-                    <p class="logo-one__text">Swift technical</p>
+                    <p class="logo__text">Swift technical</p>
 
                 </div>
 
                 <div class="upper__logo-two">
                     <img src="./assets/icons/icon2.png" class="logo__image"/>
-                    <p class="logo-two__text">Nordcore</p>
+                    <p class="logo__text">Nordcore</p>
                 </div>
 
             </div>
@@ -419,12 +394,12 @@
                 <div class="middle__column">
                     <h3 class="column__title">Swift Technical</h3>
                     <ul class="column__list">
-                        <li class="list__item">Подбор персонала</li>
-                        <li class="list__item">Временный персонал</li>
-                        <li class="list__item">Консультационные услуги</li>
-                        <li class="list__item">Подбор персонала</li>
-                        <li class="list__item">Временный персонал</li>
-                        <li class="list__item">Консультационные услуги</li>
+                        <li class="list__item"><a href="#" class="list__link">Подбор персонала</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Временный персонал</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Консультационные услуги</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Подбор персонала</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Временный персонал</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Консультационные услуги</a></li>
                     </ul>
 
                 </div>
@@ -432,31 +407,32 @@
                 <div class="middle__column">
                     <h3 class="column__title">Nordcore</h3>
                     <ul class="column__list">
-                        <li class="list__item">Обучение и оценка</li>
-                        <li class="list__item">Консультационные услуги</li>
-                        <li class="list__item">Обучение и оценка</li>
-                        <li class="list__item">Консультационные услуги</li>
-                        <li class="list__item">Обучение и оценка</li>
-                        <li class="list__item">Консультационные услуги</li>
+                        <li class="list__item"><a href="#" class="list__link">Обучение и оценка</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Консультационные услуги</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Обучение и оценка</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Консультационные услуги</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Обучение и оценка</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Консультационные услуги</a></li>
                     </ul>
                 </div>
 
                 <div class="middle__column">
-                    <h3 class="column__title"></h3>
+                    <h3 class="column__title">Cases</h3>
+                    <h3 class="column__title">Media</h3>
                     <ul class="column__list">
-                        <li class="list__item"></li>
-                        <li class="list__item"></li>
-                        <li class="list__item"></li>
-                        <li class="list__item"></li>
+                        <li class="list__item"><a href="#" class="list__link">Статьи</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Гайды</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Новости</a></li>
+                        <li class="list__item"><a href="#" class="list__link">Мероприятия</a></li>
                         
                     </ul>
                 </div>
 
                 <div class="middle__about">
                     <ul class="about__list">
-                        <li>О холдинге</li>
-                        <li>Вакансии</li>
-                        <li>Контакты</li>
+                        <li class="list__aboutitem"><a href="#" class="list__link">О холдинге</a></li>
+                        <li class="list__aboutitem"><a href="#" class="list__link">Вакансии</a></li>
+                        <li class="list__aboutitem"><a href="#" class="list__link">Контакты</a></li>
                     </ul>
                    
                     
@@ -471,14 +447,14 @@
 
                     <div class="contacts__socials">
                         <div class="socials__first">
-                            <img src="" class="">
-                            <img src="" class="">
-                            <img src="" class="">
+                            <img src="./assets/icons/Social_icon.png" class="socials__icon">
+                            <img src="./assets/icons/Social_icon (1).png" class="socials__icon">
+                            <img src="./assets/icons/Social_icon (2).png" class="socials__icon">
 
                         </div>
                         <div class="socials__second">
-                            <img src="" class="">
-                            <img src="" class="">
+                            <img src="./assets/icons/Social_icon (3).png" class="socials__icon">
+                            <img src="./assets/icons/Social_icon (4).png" class="socials__icon">
                         </div>
                     
                     </div>
@@ -498,24 +474,12 @@
                 <div class="copyright__left">
                     <p>Политика конфиденциальности</p>
                     <p>Сделано в  CULT</p>
-
                 </div>
-
                 <div class="copyright__right">
                     <p>Сайт носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437(2) Гражданского кодекса Российской Федерации. Условия и стоимость предоставления услуг необходимо уточнять у менеджера.</p>
                     <p>1997–2023 © Nordcore & Swift Technical</p>
-    
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
         </div>
      </footer>
 
