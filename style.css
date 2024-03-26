@@ -221,7 +221,21 @@ h6 {
    padding: 8px 12px;
    /* gap: 6px; */
    border-radius: 50px;
+}
 
+
+.menu__link--services {
+   display: flex;
+   flex-direction: row;
+   gap: 4px;
+}
+
+.header__button--discuss {
+   display: flex;
+   flex-direction: row;
+   gap: 4px;
+   align-items: center;
+   justify-content: center;
 }
 
 .contacts__phone {
@@ -279,6 +293,12 @@ h6 {
 
 .header__button:hover {
    cursor: pointer;
+}
+
+.header__button--discuss:hover,
+.header__button--resume:hover {
+   background-color: grey;
+   border: grey;
 }
 
 .header__button--resume {
@@ -354,6 +374,17 @@ h6 {
    text-align: left;
 }
 
+.company-staff__btn {
+   display: flex;
+   align-items:center;
+   justify-content: center;
+}
+
+.company-staff__btn:hover {
+   background-color: grey;
+   border: grey;
+}
+
 
 /* image 569 */
 .company-profile__image {
@@ -364,8 +395,6 @@ h6 {
    height: auto;
    max-width: 1135px;
    max-height: 727px;
-  
-
 }
 
 .company-profile__facts {
@@ -585,7 +614,37 @@ h6 {
 .company-staff__container {
    display: flex;
    justify-content: space-between;
+   position: relative;
 }
+
+.company-staff__vec9,
+.company-staff__vec10,
+.company-staff__vec11 {
+   position: absolute;
+}
+
+.company-staff__vec9 {
+   left: -100px;
+   top: -400px;
+}
+
+.company-staff__vec10 {
+   top: 200px;
+   left: 0;
+
+
+}
+
+.company-staff__vec11 {
+   right: -120px;
+   top: 100px;
+
+}
+
+
+
+
+
 
 .company-staff__image {
    position: absolute;
@@ -768,6 +827,12 @@ h6 {
    cursor: pointer;
 }
 
+.nordcore__btn:hover {
+   background-color: grey;
+   border: grey;
+   cursor: pointer;
+}
+
 
 .card__content {
    display: flex;
@@ -836,7 +901,6 @@ h6 {
    height: 120px;
    width: 100%;
    background-color: #DCDDE0;
-
    border-radius: 0px 0px 64px 64px;
    position: absolute;
    top: 0;
@@ -883,6 +947,14 @@ h6 {
 }
 
 .cases__btn:hover,
+.media__btn:hover
+ {
+   background-color: white;
+   color: black;
+   border: white;
+}
+
+.cases__btn:hover,
 .media__btn:hover {
    cursor: pointer;
 }
@@ -912,6 +984,7 @@ h6 {
    margin: 0 auto;
    display: flex;
    padding: 120px 120px;
+   position: relative;
 }
 
 .media__container {
@@ -920,6 +993,20 @@ h6 {
    display: flex;
    flex-direction: column;
    gap: 100px;
+   /* position: relative; */
+}
+
+.media__blue-line {
+   position: absolute;
+   background-color: linear-gradient(#1C274A 0%, #040711 100%);
+   width: 100%;
+   height: 120px;
+   border-radius: 0px 0px 64px 64px;
+   left: 0;
+   top: 0;
+   z-index: 2000;
+   /* right: 0; */
+
 }
 
 .media__upper {
@@ -968,6 +1055,18 @@ h6 {
    width: 475px;
    height: 110px;
    gap: 20px;
+}
+
+.menu-item__link  
+{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item__link:hover {
+   cursor: pointer;
+   color: black;
+   font-weight: bold;
 }
 
 .media__case {
@@ -1055,6 +1154,14 @@ h6 {
    width: 220px;
 }
 
+.btns__button--project:hover,
+.btns__button--resume:hover {
+   background-color: white;
+   border: white;
+   color: black;
+
+}
+
 .new-job__image {
    position: absolute;
    right: 0;
@@ -1070,6 +1177,19 @@ h6 {
    display: flex;
    border-radius: 64px, 64px, 0px, 0px;
    gap: 3rem;
+  
+  
+}
+
+.contacts__dark-line {
+   position: absolute;
+   border-radius: 64px, 64px, 0px, 0px;
+   top: 300px;
+   left: 0;
+   right: 0;
+   background-color: blue;
+   z-index: 2000;
+
 }
 
 .contacts__container {
@@ -1079,6 +1199,7 @@ h6 {
    padding: 100px 100px;
    margin: 0 auto;
    gap: 6rem;
+   position: relative;
    /* flex-wrap:wrap; */
 }
 
@@ -1186,8 +1307,11 @@ input {
    color: #000000;
   }
 
-  .social-links__btn:hover {
+  .social-links__btn:hover,
+  .form-box__btn:hover {
    cursor: pointer;
+   background-color: grey;
+   border: grey;
   }
 
 .form-box__btn {
@@ -1201,20 +1325,18 @@ input {
 }
 
 
-
 .footer {
 background: linear-gradient(152.78deg, #1C274A 0%, #040711 100%);
 width: 100%;
 max-width: 1440px;
-height: 800px;
+/* height: 800px; */
 margin: 0 auto;
-padding: 120px 120px;
+padding: 50px 120px;
 }
 
 .form-box__btn {
    cursor: pointer;
 }
-
 
 .footer__container {
    display: flex;
@@ -1295,8 +1417,8 @@ font-weight: 700;
 }
 
 .contacts__number {
-   text-align: right;
-   margin-top: -25px;
+text-align: right;
+margin-top: -25px;
 font-family: Manrope;
 font-size: 22px;
 font-weight: 700;
@@ -1316,17 +1438,14 @@ text-align: left;
    flex-direction: column;
    justify-content: space-between;
    color: #FCFCFC;
-
 }
 
 .mailresume__text {
- 
    font-family: Nunito Sans;
    font-size: 14px;
    font-weight: 400;
    line-height: 19.6px;
    text-align: right;
-   
 }
 
 .mailresume__mail {
@@ -1380,6 +1499,11 @@ margin-bottom: 15px;
    .list__link {
    text-decoration: none;
    color: #FCFCFC;
+   }
+
+   .list__link:hover,
+   .list__aboutitem:hover {
+      color: greenyellow;
    }
 
 .middle__about {
@@ -1450,6 +1574,13 @@ font-weight: 400;
 line-height: 19.6px;
 text-align: left;
 color: #FCFCFC;
+}
+
+.contacts__email:hover,
+.mailresume__mail:hover,
+.contacts__number:hover {
+   color:greenyellow;
+
 }
 
 

@@ -45,8 +45,9 @@
 
                     <nav class="header__menu header__menu--secondary">
                         <ul class="menu__list">
-                            <li class="menu__item"><a href="#about" class="menu__link menu__link--holding">О холдинге</a></li>
-                            <li class="menu__item"><a href="#service" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="#service" class="menu__link menu__link--services menu__link--holding">
+                                <span>Услуги</span><img src="./assets/icons/iconlist.png"/></a></li>
+                            <li class="menu__item"><a href="#about" class="menu__link">О холдинге</a></li>
                             <li class="menu__item"><a href="#cases" class="menu__link">Кейсы</a></li>
                             <li class="menu__item"><a href="#media" class="menu__link">Медиа</a></li>
                             <li class="menu__item"><a href="#jobs" class="menu__link">Вакансии</a></li>
@@ -155,6 +156,11 @@
     <!--COMPANY__STAFF START-->
     <div class="company-staff">
      <div  class="company-staff__container">
+        <img src="./assets/icons/staffVec9.png" class="company-staff__vec9"/>
+        <img src="./assets/icons/staffVec10.png" class="company-staff__vec10"/>
+        <img src="./assets/icons/staffVec11.png" class="company-staff__vec11"/>
+
+
         <div class="company-staff__content">
             <div class="company-staff__headline">
                 <h2 class="headline__title"><span>//</span> Формируем команды,</h2>
@@ -163,7 +169,10 @@
             <p class="company-staff__description">Собираем эффективные команды и помогаем ими управлять. В любых формах занятости, для решения любых задач.</p>
         </div>
 
-        <button class="company-staff__btn">Подробнее о холдинге</button>
+        <button class="company-staff__btn">
+            <span class="">Подробнее о холдинге</span>
+            <img  class="" src="./assets/icons/holding_icon.png" />
+        </button>
 
          <div class="company-staff__facts"> 
             <div class="facts__fact">
@@ -193,6 +202,8 @@
         <!-- <img src="./assets/Rectangle 6.png" class="company-staff__image" alt="people on a boat"/> -->
      </div>
     </div>
+
+
      <!--COMPANY__STAFF END-->
     </section>
 
@@ -231,7 +242,7 @@
     </section>
 
  
-    <section class="cases">
+    <section class="cases" id="cases">
         <div class="cases__container">
             <div class="cases__line"></div>
             <h2 class="cases__title">Кейсы</h2>
@@ -254,16 +265,18 @@
         </div>
     </section>
 
-    <section class="media">
+    <section class="media" id="media">
       <div class="media__container">
+        <div class="media__blue-line"></div>
+
          <div class="media__upper">
             <h2 class="media__title">Медиа</h2>
             <nav class="media__menu">
                 <ul class="media__menu-list">
-                    <li class="media__menu-item">Последние материалы</li>
-                    <li class="media__menu-item">Статьи</li>
-                    <li class="media__menu-item">Гайды</li>
-                    <li class="media__menu-item">Новости</li>
+                    <li class="media__menu-item"><a class="menu-item__link" href="#">Последние материалы</a></li>
+                    <li class="media__menu-item"><a class="menu-item__link" href="#">Статьи</a></li>
+                    <li class="media__menu-item"><a class="menu-item__link" href="#">Гайды</a></li>
+                    <li class="media__menu-item"><a class="menu-item__link" href="#">Новости</a></li>
                 </ul>
             </nav>
          </div>
@@ -286,9 +299,9 @@
     </div>
     </section>
 
-    <section class="new-job">
+    <section class="new-job" id="jobs">
         <div class="new-job__container">
-            <h2 class="new-job__title"><span>// </span>Всё получится: новая профессия и новая жизнь</h2>
+            <h2 class="new-job__title"><span>//</span>Всё получится: новая профессия и новая жизнь</h2>
             <p class="new-job__description">С вами всегда наставники, ревьюеры и такие же как вы студенты. Реальные проекты и целая платформа с упражнениями помимо теории. Практикум помогает прийти к цели быстрее. Главное — идти!</p>
             <div class="new-job__btns">
                 <button class="btns__button btns__button--project">Обсудить проект</button>
@@ -298,7 +311,7 @@
      </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="contacts__container">
             <div class="contacts__content">
                 <h2 class="contacts__title">Консультация специалиста</h2>
@@ -347,7 +360,11 @@
                     <img src="./assets/icons/submit.png" alt="mail Icon" class="btn__submit">
                   </button>
             </div>
+
+            <div class="contacts__dark-line"></div>
         </div>
+      
+      
     </section>
 
      </main>
@@ -373,15 +390,11 @@
                 <div class="upper__address">
                     <p class="address__city">Москва</p>
                     <p class="address__street">4й Добрынинский переулок, дом 8, офис С03-01</p>
-
                 </div>
-           
 
                 <div class="upper__contacts">
                     <p class="contacts__email">Contact@SwiftTechnical.ru</p>
                     <p class="contacts__number">+7(965)663-65-00</p>
-                
-
                 </div>
 
             </div>
