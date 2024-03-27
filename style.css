@@ -1159,14 +1159,78 @@ h6 {
    background-color: white;
    border: white;
    color: black;
-
 }
-
 .new-job__image {
    position: absolute;
    right: 0;
    top: 40px;
 }
+
+
+.management {
+   max-width: 1440px;
+   width: 100%;
+   height: 1430px;
+   margin: 0 auto;
+   display: flex;
+   padding: 120px 120px;
+   background-color: #DCDDE0;
+
+
+}
+
+.management__container {
+   margin: 0 auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.management__directors {
+
+
+}
+
+.directors__wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   margin-top: 300px;
+}
+
+.directors__director {
+   display: flex;
+   flex-direction: column;
+   width: 395px;
+   height: 245px;
+   background-color: white;
+   border: 1px solid white;
+   padding: 64px 32px 32px 32px;
+   gap: 32px;
+   border-radius: 0px 0px 32px 32px;
+   opacity: 0px;
+   position: relative;
+}
+
+.director__image {
+position: absolute;
+width: 365px;
+height: 315.73px;
+gap: 0px;
+border-radius: 32px;
+opacity: 0px;
+left: 0;
+top: -240px;
+
+
+}
+
+
+
+
+
+
 
 .contacts {
    background: #145CEF;

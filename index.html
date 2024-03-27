@@ -221,7 +221,6 @@
                             <p class="text__descr">Это обучающая платформа, которая собрала в себе полную коллекцию лучших курсов по карьерному консультированию, эйчар и повышению квалификации.</p>
                         </div>
                         <img src="./assets/icons/arrowicon.png" class="company-card__arrow-icon" alt="arrow-icon"/>
-
                     </div>
 
 
@@ -311,6 +310,71 @@
      </div>
     </section>
 
+ <section class="management" id="management">
+    <div class="management__container">
+        <div class="management__directors">
+            <h2>Совет директоров</h2>
+             <div class="directors__wrapper">
+                <img src="./assets/icons/sliderleft.png" alt="">
+                <div class="directors__director">
+                    <img class="director__image" src="/desktop1440/assets/img/director.jpg" alt="">
+                    <div class="">
+
+                    </div>
+
+                    <div class="">
+                        
+                    </div>
+
+
+
+                </div>
+                <div class="directors__director">
+                    <img class="director__image" src="/desktop1440/assets/img/director.jpg" alt="">
+                </div>
+                <div class="directors__director">
+                    <img class="director__image" src="/desktop1440/assets/img/director.jpg" alt="">
+                </div>
+                <img src="./assets/icons/sliderright.png" alt="">
+            </div>
+        </div>
+
+    <!-- <div class="management__team">
+        <h2>Команда холдинга</h2>
+        <div class="team__wrapper">
+                <img src="" alt="">
+                <div class="team__member">
+                    <img class="member__image" src="/desktop1440/assets/img/director.jpg" alt="">
+                </div>
+                <div class="team__member">
+                    <img class="member__image" src="/desktop1440/assets/img/director.jpg" alt="">
+                </div>
+                <div class="team__member">
+                    <img class="member__image" src="/desktop1440/assets/img/director.jpg" alt="">
+                </div>
+                <div class="team__member">
+                    <img class="member__image" src="/desktop1440/assets/img/director.jpg" alt="">
+                </div>
+                <img src="" alt="">
+        </div>
+    </div> -->
+
+            
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
     <section class="contacts" id="contacts">
         <div class="contacts__container">
             <div class="contacts__content">
@@ -339,26 +403,24 @@
                     </button>
                 </div>
             </div>
-
-
             </div>
 
             <div class="form-box">
                 <h2 class="form-box__title">Оставьте заявку</h2>
-                <form action="#">
+                <form id="myForm" action="#">
                     <div class="form__wrapper">
                         <div class="form__inputs">
-                            <input type="text" class="form__text" placeholder="Имя" disabled>
-                            <input type="text" class="form__text" placeholder="Телефон">
-                            <input type="text" class="form__text" placeholder="Email">
+                            <input id="nameInput" type="text" class="form__text" placeholder="Имя" pattern="^[a-zA-Z] + $">
+                            <input id="phoneInput" type="text" class="form__text" placeholder="Телефон" pattern="/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/">
+                            <input id="emailInput" type="email" class="form__text" placeholder="Email">
                         </div>
+                        <p class="form-box__conditions">// Нажимая на кнопку «Отправить данные», вы даете согласие на обработку персональный данных</p>
                     </div>
-                </form>
-                <p class="form-box__conditions">// Нажимая на кнопку «Отправить данные», вы даете согласие на обработку персональный данных</p>
-                <button class="form-box__btn">
+                <button class="form-box__btn" type="submit">
                     <span class="btn__text">Отправить данные</span>
                     <img src="./assets/icons/submit.png" alt="mail Icon" class="btn__submit">
                   </button>
+                </form>
             </div>
 
             <div class="contacts__dark-line"></div>
@@ -497,6 +559,7 @@
      </footer>
 
   </div>
+  <script src="./index.js"></script>
 </body>
 </html>
 
@@ -507,25 +570,7 @@
 
 
 
- <!-- <div class="company__staff">
-            <div class="company-profile__staff-info">
-              <div class="company-profile__staff-info-wrapper">
-                <div class="company-profile__staff-info-headline">
-                       <h2 class="company-profile__staff-info-title">//Формируем команды,</h2>
-                       <h3 class="company-profile__staff-info-title-purple">подбираем специалистов</h3>
-                 </div>
-                       <p class="company-profile__staff-info-text">Собираем эффективные команды и помогаем ими управлять. В любых формах занятости, для решения любых задач.</p>
-                </div>
-
-                <button class="company-profile__staff-info-moreinfo">Подробнее о холдинге</button>
-            </div>
-
-            <div class="company-profile__staff-facts">
-
-
-
-            </div>
-        </div>  -->
+ 
 
 
 
