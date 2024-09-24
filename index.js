@@ -32,6 +32,6 @@ document.getElementById('myForm').addEventListener('submit', function(e) {
         return;
     }
 
-    // If all inputs are valid, the form will be submitted
 });
+
 

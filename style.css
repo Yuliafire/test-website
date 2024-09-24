@@ -447,13 +447,6 @@ h6 {
    bottom: -480px;
 }
 
-.vector-nine {}
-
-.vector-ten {}
-
-.vector-eleven {}
-
-
 .company-cards {
    display: flex;
    position: relative;
@@ -510,7 +503,6 @@ h6 {
    height: 40px;
    opacity: 0.8px;
 }
-
 
 .company-card--nordcore {
    position: absolute;
@@ -591,8 +583,6 @@ h6 {
 .list__item--orange {
    border: 1px solid #F47616;
    background: #F47616;
-
-
 }
 
 .list__item--green {
@@ -631,19 +621,12 @@ h6 {
 .company-staff__vec10 {
    top: 200px;
    left: 0;
-
-
 }
 
 .company-staff__vec11 {
    right: -120px;
    top: 100px;
-
 }
-
-
-
-
 
 
 .company-staff__image {
@@ -709,7 +692,6 @@ h6 {
    height: 74px;
    padding: 10px 32px;
    border-radius: 100px;
-
 }
 
 .company-staff__description {
@@ -799,10 +781,8 @@ h6 {
 
 .cards__card {
    position: relative;
-
 }
 
-.card__color {}
 
 .card__content {
    position: absolute;
@@ -1166,71 +1146,18 @@ h6 {
    top: 40px;
 }
 
-
-.management {
-   max-width: 1440px;
-   width: 100%;
-   height: 1430px;
-   margin: 0 auto;
-   display: flex;
-   padding: 120px 120px;
-   background-color: #DCDDE0;
-
-
+/*VECTORS*/
+.vector-blue {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-.management__container {
-   margin: 0 auto;
-   width: 100%;
-   display: flex;
-   flex-direction: column;
+.vector-navy {
+ position: absolute;
+ top: 0;
+ left: 0;
 }
-
-.management__directors {
-
-
-}
-
-.directors__wrapper {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 20px;
-   margin-top: 300px;
-}
-
-.directors__director {
-   display: flex;
-   flex-direction: column;
-   width: 395px;
-   height: 245px;
-   background-color: white;
-   border: 1px solid white;
-   padding: 64px 32px 32px 32px;
-   gap: 32px;
-   border-radius: 0px 0px 32px 32px;
-   opacity: 0px;
-   position: relative;
-}
-
-.director__image {
-position: absolute;
-width: 365px;
-height: 315.73px;
-gap: 0px;
-border-radius: 32px;
-opacity: 0px;
-left: 0;
-top: -240px;
-
-
-}
-
-
-
-
-
-
 
 .contacts {
    background: #145CEF;
@@ -1241,8 +1168,6 @@ top: -240px;
    display: flex;
    border-radius: 64px, 64px, 0px, 0px;
    gap: 3rem;
-  
-  
 }
 
 .contacts__dark-line {
@@ -1253,7 +1178,6 @@ top: -240px;
    right: 0;
    background-color: blue;
    z-index: 2000;
-
 }
 
 .contacts__container {
@@ -1345,6 +1269,7 @@ top: -240px;
 
 .form-box__conditions {
    color: white;
+   margin-top: 30px;
 }
 
 input {
@@ -1386,6 +1311,7 @@ input {
    width: 404px;
    height: 42px;
    gap: 16px;
+   margin-top: 10px;
 }
 
 
